@@ -110,13 +110,9 @@ export default function ClientWork() {
           className="mb-12 flex flex-col md:flex-row md:items-end justify-between gap-6"
         >
           <div className="max-w-2xl">
-            <h2 className="text-5xl md:text-7xl font-bold mb-4 tracking-tight" style={{ fontFamily: 'Georgia, serif' }}>
+            <h5 className="text-5xl md:text-7xl font-bold mb-4 tracking-tight" style={{ fontFamily: 'Georgia, serif' }}>
               Client Work
-            </h2>
-            <p className="text-lg md:text-xl text-[#475569] mb-6">
-              Production systems that drive real business results
-            </p>
-            
+            </h5>
             <div className="flex md:hidden items-center gap-4">
               <div className="flex gap-2">
                 {projects.map((_, i) => (
@@ -170,10 +166,6 @@ export default function ClientWork() {
               <h3 className="text-3xl md:text-5xl font-bold mb-4 tracking-tight" style={{ fontFamily: 'Georgia, serif' }}>
                 What Clients Say
               </h3>
-              <p className="text-lg md:text-xl text-[#475569] mb-6">
-                Trusted feedback from real projects
-              </p>
-
               {/* Mobile indicators */}
               <div className="flex md:hidden items-center gap-4">
                 <div className="flex gap-2">
