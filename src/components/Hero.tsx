@@ -46,13 +46,13 @@ export default function Hero({ onContactClick, onAboutMeClick }: HeroProps) {
           <div className="flex items-center gap-2 mb-8 px-4 py-2 bg-[#F5F5F7] w-fit rounded-full border border-gray-100 shadow-sm">
             <CheckCircle2 size={16} className="text-[#121212]" />
             <span className="text-xs font-bold uppercase tracking-widest text-[#121212]">
-              Proven Results // 10+ Global Deliveries
+              Proven Results • 10+ Projects Deliveried
             </span>
           </div>
 
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-light leading-[1.3] tracking-tight mb-10 text-[#121212]"
               style={{ fontFamily: 'Georgia, serif' }}>
-            I build high-performance digital platforms that merge premium design with automated systems to <span className="italic font-normal">reclaim 40+ hours of your month</span> and capture more customers.
+            I build professional websites and automation systems that <span className="italic font-normal">save you 40+ hours per month</span> and bring you more customers.
           </h2>
 
           <div className="flex flex-col sm:flex-row gap-4 items-center">
